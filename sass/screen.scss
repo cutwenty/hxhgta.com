@@ -15,3 +15,11 @@ article pre {
     background: #eaeaea;
     border: 0;
 }
+
+#recent_posts .post{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  a {
+    white-space: nowrap;
+  }
+}

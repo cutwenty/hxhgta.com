@@ -172,3 +172,7 @@ github 上有许多 [第三方主题](https://github.com/imathis/octopress/wiki/
 我使用了多说、百度分享这两个插件，作为评论和分享的插件。除此之外还有许多插件，如 github 插件、微博插件等，可以自己甄选。
    
 <br/>       
+
+<< 上一篇：没有了
+
+\>> [下一篇：移动端页面布局：单位](http://www.cutwenty.com/blog/2017-02-08-shou-ji-she-bei-dan-wei-:dpi,-dp,-px.html)
