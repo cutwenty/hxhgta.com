@@ -1,15 +1,4 @@
----
-layout: post
-title: "搭建 Octopress 博客"
-date: 2017-02-08 15:48:56 +0800
-comments: true
-categories:
-- 工具
----
-
-> Octopress 是基于 Jekyll 的。他们的关系就像 jQuery 与 js 的关系一样。
-
-<!--more-->
+# 搭建 Octopress 博客
 
 第一次接触 Octopress 是在折腾 emacs 学习 org 的时候。
 
