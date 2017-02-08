@@ -1,0 +1,28 @@
+{% if index %}
+	<div class="meta">
+		<div class="date">{% include post/date.html %}{{ time }}</div>
+		<div class="tags">{% include post/categories.html %}</div>
+		{% if page.comments == true %}
+			<span class="comments"><a href="{{ root_url }}{{ post.url }}#disqus_thread">Comments</a></span>
+		{% endif %}
+	</div>
+	<h1 class="title" itemprop="name"><a href="{{ root_url }}{{ post.url }}" itemprop="url">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		{{ content | excerpt }}
+		{% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
+		{% if excerpted == 'true' %}<a href="{{ root_url }}{{ post.url }}" class="more-link">{{ site.excerpt_link }}</a>{% endif %}
+	</div>
+{% else %}
+<!-- 这是文章主体的内容 -->
+	<div class="meta">
+		<div class="date">{% include post/date.html %}{{ time }}</div>
+		<div class="tags">{% include post/categories.html %}</div>
+		
+	</div>
+	<h1 class="title" itemprop="name">{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+	<div class="entry-content" itemprop="articleBody">{{ content }}</div>
+	<!-- <section id="comment">
+	    <h1 class="title">Comments</h1>
+	    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+	</section> -->
+{% endif %}

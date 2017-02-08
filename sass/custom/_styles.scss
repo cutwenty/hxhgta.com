@@ -1,0 +1,104 @@
+.container {
+  .left-col {
+    background: url('/images/background.jpg');
+    background-size: cover;
+  }
+}
+
+.ds-share {
+	float: right;
+}
+
+.shareAndcomment {
+	padding-top: 20px;
+}
+
+#recent_posts {
+	list-style-type: none;
+}
+
+.container div.mid-col div.mid-col-container #content article {
+	padding: 40px 0;
+}
+
+#pagenavi {
+	.next,
+	.prev {
+		font-size: 14px;
+		&::before {
+			top: 3px;
+		}
+	}
+	.center {
+		font-size: 14px;
+	}
+}
+
+.jiathis_style {
+	float: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.container .mid-col div.mid-col-container #content article {
+	padding: 40px;
+}
+
+.container .mid-col .mid-col-container #content article .entry-content a.more-link {
+	font-size: 14px;
+	margin-top: 12px;
+    padding: 1px 5px;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    border-width: 2px;
+    border-color: #1ba1e2;
+    border-style: solid;
+    display: inline-block;
+    border-radius: 5px;
+    background: #1ba1e2;
+    text-shadow: none;
+    color: #f8f8f8;
+	&:hover {
+		background: #ffffff;
+	    display: inline-block;
+	    text-decoration: none;
+	    color: #1ba1e2;
+	    border-radius: 5px;
+	    border-width: 2px;
+	    border-style: solid;
+	}
+}
+
+.container .mid-col .mid-col-container #content article .meta .tags {
+	&::before {
+		top: 2px;
+	}
+	.category {
+		font-size: 12px;
+		color: #2571b8;
+	}
+}
+
+.container .mid-col .mid-col-container #content article .meta .comments {
+	font-size: 12px;
+	&::before {
+		top: 2px;
+		right: 10px;
+		position: relative;
+	}
+}
+.container .mid-col .mid-col-container #content article .meta div.tags::before {
+	top: 2px;
+}
+
+.container .mid-col .mid-col-container #content article .meta .date {
+	&::before {
+		font-size: 16px;
+		top: 1px;
+	}
+	time {
+		font-size: 11px;
+	}
+}

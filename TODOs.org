@@ -1,0 +1,6 @@
+* 待办事项
+** TODO 右边栏，最近文章处，标题太长省略文字
+** TODO 上一篇文章，下一篇文章功能
+** DONE octopress 的 seo 优化
+   CLOSED: [2016-10-16 Sun 15:45]
+** TODO favicon.ico 选择

@@ -1,0 +1,7 @@
+#+MACRO: more @@html:<!-- more -->@@
+#+MACRO: quote @@html:<blockquote>@@
+#+MACRO: quoteend @@html:</blockquote>@@
+#+MACRO: twitter [[http://twitter.com/$1][@$1]]
+#+MACRO: github [[https://github.com/$1/$2][$2]]
+#+MACRO: gist @@html:{% gist $1 $2 %}@@
+#+PROPERTY: cache yes
